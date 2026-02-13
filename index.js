@@ -22,7 +22,9 @@ client.on(Events.InteractionCreate, async (interaction) => {
 });
 
 // LOGIN — THIS IS IMPORTANT
-client.login(process.env.DISCORD_TOKEN);
+client.login(process.env.TOKEN);
+
+
 
 
 
